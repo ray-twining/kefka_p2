@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ミッシング TeamKT固定向け 立ち位置ツール v14</title>
+<title>ミッシング TeamKT固定向け 立ち位置ツール v15</title>
 <style>
 :root {
   --bg:#0f1420; --panel:#161d2b; --line:#344156; --text:#eef4ff; --muted:#b9c4db;
@@ -122,14 +122,14 @@ button.active { background:linear-gradient(180deg,#4e7ff0,#2d54bf); border-color
 .left_guide   { left:5%; top:50%; transform:translateX(-50%); }
 .lt_head      { left:25%; top:42%; transform:translate(-50%,-50%); }
 .lt_outer     { left:18%; top:67%; transform:translate(-50%,-50%); }
-.left_outside { left:10%; top:88%; transform:translateX(-50%); }
+.left_outside { left:10%; top:80%; transform:translateX(-50%); }
 
 /* 右側 */
 .right_up      { left:77%; top:9%; transform:translateX(-50%); }
 .right_guide   { left:95%; top:50%; transform:translateX(-50%); }
-.rt_head       { left:73%; top:28%; transform:translate(-50%,-50%); }
-.rt_outer      { left:73%; top:70%; transform:translate(-50%,-50%); }
-.right_outside { left:90%; top:88%; transform:translateX(-50%); }
+.rt_head       { left:75%; top:42%; transform:translate(-50%,-50%); }
+.rt_outer      { left:75%; top:67%; transform:translate(-50%,-50%); }
+.right_outside { left:90%; top:80%; transform:translateX(-50%); }
 
 /* 中央帯 */
 .left_inner  { left:41%; top:68%; transform:translateX(-50%); }
@@ -184,9 +184,9 @@ summary { cursor:pointer; font-weight:700; color:#dce8ff; }
 </head>
 <body>
 <div class="wrap">
-  <h1>ミッシング TeamKT固定向け 立ち位置ツール v14</h1>
+  <h1>ミッシング TeamKT固定向け 立ち位置ツール v15</h1>
   <p class="lead">
-    ご指摘どおり、<strong>調整 / 指定場所</strong> は図から削除し、左右対称の位置だけで分かるように整理しました。塔を中心に、左側の位置・右側の位置・中央帯を対称に配置しています。
+    左右の位置関係がずれて見えたので、<strong>左塔内 / 右塔内を同じ高さ</strong>にそろえ、<strong>左外 / 右外を塔に近づける</strong>よう微調整しました。左右対称の位置だけで読めるように整理しています。
   </p>
 
   <div class="grid">
